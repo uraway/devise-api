@@ -1,6 +1,7 @@
 <!--
 {"id":"6653812171404925684","title":"Rails5 API + devise でユーザーの認証と追加機能を実装した API を作成する","categories":["Rails API"],"draft":false}
 -->
+
 # Rails5 API + devise でユーザーの認証と追加機能を実装した API を作成する
 
 ## 目標
@@ -267,11 +268,11 @@ $ curl localhost:3000/v1/login --data "email=user@example.com&password=password"
 
 より強固なものにするために `spec` 等を書きましょう.
 
-## CROS
+## CORS
 
 フロントエンドのアプリケーションをこの API に対しリクエストを送る形で作成するのですが, 通常の設定では別ドメインからのリクエストは拒否されてしまいます.
 
-これを解決するには Cross-Origin Resource Sharing ([CROS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing)) を[rack-cors](https://github.com/cyu/rack-cors) を使ってクロスドメイン通信を許可します.
+これを解決するには Cross-Origin Resource Sharing ([CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing)) を[rack-cors](https://github.com/cyu/rack-cors) を使ってクロスドメイン通信を許可します.
 
 ```ruby
 gem 'rack-cors'
