@@ -1,7 +1,3 @@
-<!--
-{"id":"6653812171404925684","title":"Rails5 API + devise でユーザーの認証と追加機能を実装した API を作成する","categories":["Rails API"],"draft":false}
--->
-
 # Rails5 API + devise でユーザーの認証と追加機能を実装した API を作成する
 
 ## 目標

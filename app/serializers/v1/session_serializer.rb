@@ -1,6 +1,7 @@
+# frozen_string_literal: true
+
 module V1
   class SessionSerializer < ActiveModel::Serializer
-
     attributes :email, :token_type, :user_id, :access_token
 
     def user_id
@@ -10,6 +11,5 @@ module V1
     def token_type
       'Bearer'
     end
-
   end
 end

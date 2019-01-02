@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module V1
   class SessionsController < ApplicationController
     skip_before_action :authenticate_user_from_token!
