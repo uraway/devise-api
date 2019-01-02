@@ -69,7 +69,7 @@ mailcatcher の設定を書き加えます。Docker を使用している場合�
 
 `docker-compose up` して、http://localhost:1080 にアクセスしましょう。
 
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/u/uraway/20190101/20190101190316.png)
+![](https://cdn-ak.f.st-hatena.com/images/fotolife/u/uraway/20190102/20190102170331.png)
 
 ## パスワードリセットメールを送信する
 
